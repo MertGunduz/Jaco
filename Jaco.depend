@@ -1,8 +1,9 @@
 # depslib dependency file v1.0
-1634551908 source:d:\codeblockprojects\jaco\main.c
+1634558389 source:d:\codeblockprojects\jaco\main.c
 	<stdio.h>
 	<stdlib.h>
 	<math.h>
 	<time.h>
 	<stdbool.h>
+	<string.h>
 
