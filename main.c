@@ -22,6 +22,23 @@ int main()
     printf("|------|\n\n");
 
     printf("Password Length --> ");
-    scanf("%d", passwordLength);
+    scanf("%d", &passwordLength);
+
+    printf("\n");
+
+    do
+    {
+        printf("Include Symbols (Y/N)\n\n");
+        includeSymbols = getch();
+        includeSymbols = toupper(includeSymbols);
+
+        if (includeSymbols != 'Y' && includeSymbols != 'N')
+        {
+            printf("|----------------|\n");
+            printf("| Invalid Answer |\n");
+            printf("|----------------|\n\n");
+        }
+    } while (includeSymbols != 'Y' && includeSymbols != 'N');
+
     return 0;
 }
